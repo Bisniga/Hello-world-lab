@@ -1,12 +1,8 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Helvetica', sans-serif;
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
+    color: #4a4a4a;
 }
 
 header {
@@ -18,19 +14,27 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    border-bottom: 3px solid #4a4a4a;
 }
 
 header .logo {
     width: 50px;
     height: 50px;
     background-image: url('images/Group 2-2.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-right: 10px;
 }
 
 main {
     width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -41,15 +45,42 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.computer-image img {
+.computer-image {
+    margin: 20px 0;
     width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
+    background-image: url('images/FreeVector-Vintage-Mac.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+    border-radius: 8px;
 }
 
-.history, .example {
+details {
+    display: flex;
+    gap: 20px;
+}
+
+details section {
+    flex-basis: 50%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    background-image: url('images/Group 2-2.png');
+    margin: 0 0 30px 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6em;
 }
 
 .example pre {
@@ -59,4 +90,3 @@ section {
     border-radius: 8px;
     overflow-x: auto;
 }
-
