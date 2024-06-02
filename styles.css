@@ -13,7 +13,7 @@ main {
 
 .mashead {
     background-image: url('FreeVector-Vintage-Mac.jpg');
-    background-size: cover; 
+   background-size: 100% 100%; /* Stretch to fit */
     background-position: center; /* Center the image */
     height: 250px;
     border-radius: 20px;
