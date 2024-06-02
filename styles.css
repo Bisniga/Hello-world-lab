@@ -12,7 +12,7 @@ main {
 }
 
 .mashead {
-    background-image: url('images/FreeVector-Vintage-Mac.jpg');
+    background-image: url('FreeVector-Vintage-Mac.jpg');
     background-size: cover;
     background-position: bottom;
     height: 250px;
@@ -38,7 +38,7 @@ img {
 }
 
 h1 {
-    background-image: url('images/Group 2-2.png');
+    background-image: url('Group 2-2.png');
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: center left;
@@ -55,6 +55,7 @@ p {
     margin: 0;
     line-height: 1.4em;
 }
+
 
 
 
