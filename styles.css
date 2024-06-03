@@ -1,4 +1,4 @@
-
+/* Add screen styles below */
 body {
     background: #ffffff;
     font-family: Helvetica, sans-serif;
@@ -46,6 +46,8 @@ h1 {
     font-size: 3em;
     padding-left: 55px;
     margin: 100px 0 25px 0;
+    display: flex;
+    align-items: center;
 }
 
 h2 {
@@ -64,6 +66,7 @@ pre, code {
     border-radius: 20px;
     font-size: 1.1em;
     overflow: auto;
+    white-space: pre-wrap;
 }
 
 /* Additional styles to align the HelloWorld title better */
@@ -71,9 +74,3 @@ h1 {
     display: flex;
     align-items: center;
 }
-
-
-
-
-
-
