@@ -1,5 +1,6 @@
+/* Add screen styles below */
 body {
-    background: #fff;
+    background: #ffffff;
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
     margin: 0;
@@ -11,10 +12,10 @@ main {
     width: 800px;
 }
 
-.mashead {
+.masthead {
     background-image: url('FreeVector-Vintage-Mac.jpg');
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: bottom;
     height: 250px;
     border-radius: 20px;
 }
@@ -27,7 +28,7 @@ main {
 .details section {
     flex-grow: 1;
     flex-basis: 0;
-    background: #eee;
+    background: #eeeeee;
     padding: 25px;
     border-radius: 20px;
     margin-top: 25px;
@@ -56,25 +57,19 @@ p {
     line-height: 1.4em;
 }
 
-.with-code {
-    padding: 0;
-}
-
-.code-example {
-    background: #333;
-    color: #eee;
+pre, code {
+    background: #424242;
+    color: #ffffff;
     padding: 20px;
-    border-radius: 10px;
-    overflow-x: auto;
-    border-top: 15px solid #424242;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    overflow: auto;
 }
 
-code {
-    font-family: monospace;
-    white-space: pre;
-    display: block;
+/* Additional styles to align the HelloWorld title better */
+h1 {
+    display: flex;
+    align-items: center;
 }
 
 
