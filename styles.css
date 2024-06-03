@@ -11,13 +11,12 @@ main {
     width: 800px;
 }
 
-.masthead {
+.mashead {
     background-image: url('FreeVector-Vintage-Mac.jpg');
-    background-size: cover;
-    background-position: bottom;
+    background-size: 100% 100%;
+    background-position: center;
     height: 250px;
     border-radius: 20px;
-    margin-bottom: 20px;
 }
 
 .details {
@@ -34,32 +33,18 @@ main {
     margin-top: 25px;
 }
 
-.details section.with-code {
-    padding: 0;
-}
-
-div.code-container {
-    padding: 25px;
-    background: #424242;
-    color: #fff;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
 img {
     width: 100%;
 }
 
 h1 {
-    background-image: url('images/h-logo.png');
+    background-image: url('Group 2-2.png');
     background-repeat: no-repeat;
     background-size: 40px;
-    background-position: left center;
-    padding-left: 50px; /* Adjust this value to space out the text from the logo */
+    background-position: center left;
     font-size: 3em;
-    margin: 20px 0 20px 0; /* Adjust this value to control spacing */
-    display: inline-block;
-    vertical-align: middle;
+    padding-left: 55px;
+    margin: 100px 0 25px 0;
 }
 
 h2 {
@@ -67,7 +52,29 @@ h2 {
 }
 
 p {
-    margin: 0 0 1.4em;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+.with-code {
+    padding: 0;
+}
+
+.code-example {
+    background: #333;
+    color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    border-top: 15px solid #424242;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+code {
+    font-family: monospace;
+    white-space: pre;
+    display: block;
 }
 
 pre, code {
