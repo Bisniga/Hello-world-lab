@@ -17,6 +17,10 @@ main {
     background-position: bottom;
     height: 250px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .details {
@@ -53,7 +57,7 @@ h1 {
     background-position: center left;
     font-size: 3em;
     padding-left: 55px;
-    margin: 100px 0 25px 0;
+    margin: 0;
 }
 
 h2 {
@@ -64,4 +68,5 @@ p {
     margin: 0;
     line-height: 1.4em;
 }
+
 
