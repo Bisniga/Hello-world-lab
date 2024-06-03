@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #fff;
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
     margin: 0;
@@ -17,10 +17,7 @@ main {
     background-position: bottom;
     height: 250px;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .details {
@@ -31,7 +28,7 @@ main {
 .details section {
     flex-grow: 1;
     flex-basis: 0;
-    background: #eeeeee;
+    background: #eee;
     padding: 25px;
     border-radius: 20px;
     margin-top: 25px;
@@ -41,23 +38,28 @@ main {
     padding: 0;
 }
 
-div.code {
+div.code-container {
     padding: 25px;
     background: #424242;
-    color: white;
+    color: #fff;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+}
+
+img {
+    width: 100%;
 }
 
 h1 {
-    background-image: url('Group 2-2.png');
+    background-image: url('images/h-logo.png');
     background-repeat: no-repeat;
     background-size: 40px;
-    background-position: center left;
+    background-position: left center;
+    padding-left: 50px; /* Adjust this value to space out the text from the logo */
     font-size: 3em;
-    padding-left: 55px;
-    margin: 0;
+    margin: 20px 0 20px 0; /* Adjust this value to control spacing */
+    display: inline-block;
+    vertical-align: middle;
 }
 
 h2 {
@@ -65,8 +67,9 @@ h2 {
 }
 
 p {
-    margin: 0;
-    line-height: 1.4em;
+    margin: 0 0 1.4em;
 }
 
-
+pre, code {
+    font-family: 'Courier New', Courier, monospace;
+}
