@@ -56,12 +56,19 @@ p {
     line-height: 1.4em;
 }
 
-pre {
+.with-code {
+    padding: 0;
+}
+
+.code-example {
     background: #333;
     color: #eee;
     padding: 20px;
     border-radius: 10px;
     overflow-x: auto;
+    border-top: 15px solid #424242;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 code {
@@ -69,6 +76,7 @@ code {
     white-space: pre;
     display: block;
 }
+
 
 
 
