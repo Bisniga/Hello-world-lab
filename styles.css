@@ -13,8 +13,8 @@ main {
 
 .mashead {
     background-image: url('FreeVector-Vintage-Mac.jpg');
-   background-size: 100% 100%; /* Stretch to fit */
-    background-position: center; /* Center the image */
+    background-size: 100% 100%;
+    background-position: center;
     height: 250px;
     border-radius: 20px;
 }
@@ -55,6 +55,21 @@ p {
     margin: 0;
     line-height: 1.4em;
 }
+
+pre {
+    background: #333;
+    color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: monospace;
+    white-space: pre;
+    display: block;
+}
+
 
 
 
